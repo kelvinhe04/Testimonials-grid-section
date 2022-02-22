@@ -61,6 +61,7 @@ html {
 .grid__items--purple {
   background-color: var(--Moderate-violet);
   margin-top: 2rem;
+  position: relative;
 }
 .grid__items--grey {
   background-color: var(--Very-dark-grayish-blue);
@@ -81,6 +82,7 @@ html {
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -110,13 +112,14 @@ html {
   font-size: 1.4rem;
 }
 .grid__title--white {
-  color: var(--Light-gray);
+  color: var(--White);
+  position: relative;
 }
 .grid__title--grey {
   color: var(--Very-dark-grayish-blue);
 }
 .grid__desc--white {
-  color: var(--Light-gray);
+  color: var(--White);
   opacity: 0.7;
 }
 
@@ -160,6 +163,11 @@ html {
 .profile__container img {
   border-radius: 50%;
 }
+.quote {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
 /* ================
       Buttons
     ===============*/
@@ -201,5 +209,8 @@ html {
     flex-direction: row;
     position: relative;
     top: 4rem;
+  }
+  .quote {
+    right: 6rem;
   }
 }
